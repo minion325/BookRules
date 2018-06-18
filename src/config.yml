@@ -1,0 +1,41 @@
+bookslot: 1
+default:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        title: Rules
+        author: minion325
+        pages:
+        - 1)Default Book
+        generation: 0
+lang:
+  english:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        title: Rules
+        author: minion325
+        pages:
+        - 1)English rules
+        generation: 0
+    locales:
+    - en_US
+  spanish:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Rules
+          author: minion325
+          pages:
+          - 1)Spanish rules
+          generation: 0
+      locales:
+      - es_ES
